@@ -47,9 +47,7 @@ namespace WebApiPaises
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseMvc();
-            
+            app.UseMvc();            
         }
     }
 }
