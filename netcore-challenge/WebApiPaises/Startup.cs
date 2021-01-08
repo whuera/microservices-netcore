@@ -49,24 +49,7 @@ namespace WebApiPaises
             }
 
             app.UseMvc();
-
-            //if (!context.Paises.Any())
-            //{
-            //    context.Paises.AddRange(new List<Pais>()
-            //    {
-            //        new Pais(){Nombre = "República Dominicana", Provincias = new List<Provincia>(){
-            //                new Provincia(){Nombre = "Azua"}
-            //        } },
-            //        new Pais(){Nombre = "México", Provincias = new List<Provincia>(){
-            //                new Provincia(){Nombre = "Puebla"},
-            //                new Provincia(){Nombre = "Queretaro"}
-            //            } },
-            //        new Pais(){Nombre = "Argentina"}
-            //    });
-
-            //    context.SaveChanges();
-            //}
-
+            
         }
     }
 }
